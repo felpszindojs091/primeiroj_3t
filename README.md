@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Nome: Jesus   Nr. 50
+Nome: Felipe   Nr. 6
 
 ## Assuntos
 HTML, CSS e JavaScript

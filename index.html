@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KD minha nota do segundo trimestre?</title>
+    <title>Terceiro Trimestre</title>
     <link rel="stylesheet" href="geral.css">
     <script src="estudo.js"></script>
-    
 </head>
 <body>
- Valor:   <input id="valor"type="text"> <br>
- Juros:   <input id="juros"type="text"> <br>
- <button onclick="total()">Resultado</button>
+    <div class="calculadora">
+        <span id="total">Total; 0,00</span> <br>  
+ Capital: <input id="valor" type="text"> <br>
+ Juros (mensais): <input id="juros" type="text"> <br>
+ 
+ Nr. Meses: <input id="meses" type="text"> <br>
 
- <br><br><br><br>
- Valor 1. <input id ="v1" type="text"><br>
-Valor 2. <input id ="v2" type="text"><br>
-<span id="resultado"></span><br>
-<button onclick="soma()"> + </button>
-<button onclick="sub()"> - </button>
-<button onclick="div()"> * </button>
+ <button id="btnCalc" onclick="total()"> calcular </button>
+</div>
+<div>
+    <span id="listaMes">Meses</span>
+</div>
+
+
+
+<br><br><br>
 </body>
 </html>
+
+
+

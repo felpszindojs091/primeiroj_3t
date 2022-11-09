@@ -48,26 +48,29 @@ function total(){
       alert("O valor deve ser um número.");
       document.getElementById("valor").value = "";
       document.getElementById("valor").focus();
-      return 
+      return
    }
    if(!Number(ju)){
       alert("O valor dos juros deve ser um número.");
       document.getElementById("juros").value = "";
       document.getElementById("juros").focus();
-      return 
+      return
    }
    if(!Number(t)){
       alert("A quantidade de meses deve ser um número.");
       document.getElementById("meses").value = "";
       document.getElementById("meses").focus();
-      return 
+      return
    }
    let r = val;
-   for(let m = 1; m <= t; m++){
+   let texto = "";
+      for(let m = 1; m <= t; m++){
       r = (val * (1+ (ju/100)));
       val = r;
-      //document.write("Mês " + m + " valor: " + moeda(r) + "<br>");
-   }
-   document.getElementById("total").innerHTML = "Total; "+moeda(r);
-   //document.write("O tatal é " + moeda(r));
+      texto +=  m + " ; " + moeda(r) + "<br>"
+      //document.write("Mês " + " + moeda(r) + "<br>");
+      }
+ document.getElementById("listaMes").innerHTML = texto;
+   document.getElementById("total").innerHTML = "total; "+moeda(r);
+   //document.write("O total é " + moeda(r));
 }

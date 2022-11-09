@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Nome: Felipe   Nr. 6
+Nome: Kauanzzx Nr: 31
 
 ## Assuntos
 HTML, CSS e JavaScript
